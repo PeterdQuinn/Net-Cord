@@ -24,6 +24,11 @@ app.use(express.static(path.join(__dirname, 'public')));
         io.emit('message', 'Somone left the building!');
      });
 
+     //listen for chat message//
+     socket.on('chatMessage',(msg) => {
+         console.log(msg)
+     })
+
  });
 
 const PORT = 3000 || process.env.PORT;
