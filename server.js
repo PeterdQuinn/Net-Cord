@@ -18,11 +18,11 @@ const botName = 'ChatCord bot';
  io.on('connection', socket => {
      console.log('New WS connection...')
         // welcome user to chat//
-     socket.emit('message', formatMessage(botName,'Welcome to PetesChord'));
+     socket.emit('messages', formatMessage(botName,'Welcome to PetesChord'));
 
 
      //Broadcast when a user Connects//
-     socket.broadcast.emit('message',formatMessage(botName,'A new person has joined our chat! welcome them!'));
+     socket.broadcast.emit('messages',formatMessage(botName,'A new person has joined our chat! welcome them!'));
 
 
      
@@ -34,11 +34,11 @@ const botName = 'ChatCord bot';
      
      //listen for chat message//
      socket.on('chatMessage',(msg) => {
-         io.emit('message', msg)
+         io.emit('message',formatMessage('USER',msg));
      });
 
  });
-
+//// run localport300////
 const PORT = 3000 || process.env.PORT;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
