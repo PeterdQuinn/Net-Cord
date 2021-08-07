@@ -28,7 +28,9 @@ const botName = 'ChatCord bot';
 
 
      //Broadcast when a user Connects//
-     socket.broadcast.to(user.room).emit('message',formatMessage(botName,'FRESH MEAT IN THE ROOM!'));
+     socket.broadcast
+     .to(user.room)
+     .emit('message',formatMessage(botName,'FRESH MEAT IN THE ROOM!'));
 
      });
 
