@@ -5,7 +5,7 @@
 	--dark-color-b: rgba(22, 22, 24, 0.082);
 	--light-color: #00d8e7;
 	--success-color: hsl(120, 14%, 4%);
-	--error-color: hsl(221, 100%, 15%);
+	--error-color: #c57b0c;
 }
 
 * {
