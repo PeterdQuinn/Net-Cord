@@ -1,4 +1,4 @@
-///--WELCOME TO PETES-CORD-----
+///--WELCOME TO net-chord-----
 to start: npm start dev
 Go to localhost:3000
 ///-------
