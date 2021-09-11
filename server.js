@@ -17,7 +17,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'PetesCord Bot';
+const botName = 'Net Cord Bot';
 
 // Run when client connects
 io.on('connection', socket => {
