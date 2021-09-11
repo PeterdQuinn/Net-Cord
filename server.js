@@ -17,7 +17,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'PetesCord Bot';
+const botName = 'Net Cord Bot';
 
 // Run when client connects
 io.on('connection', socket => {
@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to Petes Cord!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to Net Cord!'));
 
     // Broadcast when a user connects
     socket.broadcast
