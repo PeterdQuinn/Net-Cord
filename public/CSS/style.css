@@ -5,7 +5,7 @@
 	--dark-color-b: hsla(240, 4%, 9%, 0.938);
 	--light-color: hsla(180, 23%, 94%, 0.26);
 	--success-color: rgb(18, 245, 18);
-	--error-color: #c57b0c;
+	--error-color: rgb(37, 92, 245);
 }
 
 * {
@@ -49,7 +49,7 @@ a {
 
 .chat-header {
 	background: var(--dark-color-a);
-	color: rgb(7, 7, 7);
+	color: #050202;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 15px;
@@ -130,7 +130,7 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fdfdfdf6;
+	color: hsla(236, 88%, 44%, 0.965);
 }
 
 .join-header {
@@ -143,7 +143,7 @@ a {
 
 .join-main {
 	padding: 30px 40px;
-	background: rgba(#777);
+	background: rgba(#0313f3);
 }
 
 .join-main p {
