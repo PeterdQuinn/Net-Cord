@@ -1,16 +1,16 @@
-///--WELCOME TO net-chord-----
-to start: npm start dev
-Go to localhost:3000
-///-------
-//## Petescord ##
-Realtime chat app with websockets using Node.js, 
-Express and Socket.io 
-with Vanilla JS on the frontend with a custom UI
+## WELCOME TO NET CORD ##
+Scripts: 
+Start:node server
+Dev:nodemon server
+##
+As a fan of chat applications I wanted to create a private network.
+## description ## Real Time Chat Application ##
 
-//dependencies :
-express"
+## dependencies ##
+express
 moment 
 socket.io
+<<<<<<< HEAD
 ///
 
 
@@ -35,3 +35,15 @@ Andrew Love, [07.09.21 18:35]
 We use a simplified 3d view for our mobile application, and then use premium graphics and low poly, high resolution modes for a desktop.  Almost like a game-style exchange NFT format.
 
 
+=======
+jshint
+inquirer
+console.table
+asciiart-logo
+webpack
+
+# WEB TOOLS ##
+HTML
+CSS
+JAVASCRIPT
+>>>>>>> 44e912a9541c0e569d62403e9918e48e55b94a68
