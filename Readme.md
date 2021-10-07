@@ -35,4 +35,3 @@ Andrew Love, [07.09.21 18:35]
 We use a simplified 3d view for our mobile application, and then use premium graphics and low poly, high resolution modes for a desktop.  Almost like a game-style exchange NFT format.
 
 
-Listening on 5000 heroku
