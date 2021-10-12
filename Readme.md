@@ -1,17 +1,16 @@
-## WELCOME TO NET CORD ##
-Scripts: 
+
+# WELCOME TO NET CORD
+
+Scripts:
 Start:node server
 Dev:nodemon server
-;
 
-## description 
-## Real Time Chat Application ##
+## Description
 
-## dependencies ##
-express;
-moment ;
-socket.io;
+Real Time Chat Application
 
+## Dependencies
 
-
-
+express
+moment
+socket.io
