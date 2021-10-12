@@ -1,22 +1,16 @@
-## WELCOME TO NET CORD ##
-Scripts: 
+
+# WELCOME TO NET CORD
+
+Scripts:
 Start:node server
 Dev:nodemon server
-##
-As a fan of chat applications I wanted to create a private network.
-## description ## Real Time Chat Application ##
 
-## dependencies ##
+## Description
+
+Real Time Chat Application
+
+## Dependencies
+
 express
-moment 
+moment
 socket.io
-jshint
-inquirer
-console.table
-asciiart-logo
-webpack
-
-# WEB TOOLS ##
-HTML
-CSS
-JAVASCRIPT
